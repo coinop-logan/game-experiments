@@ -15,3 +15,11 @@ export_credentials.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+# Build exports
+exports/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
