@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c2xcj6pfrrj7i"
-path="res://.godot/imported/mainguyAt Rest.png-34ba16abeb5ba02b2ad065cd711ad314.ctex"
+uid="uid://dur77r62wg2l2"
+path="res://.godot/imported/sam.png-e2225edfb01ee1abc33d4b35110159be.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mainguyAt Rest.png"
-dest_files=["res://.godot/imported/mainguyAt Rest.png-34ba16abeb5ba02b2ad065cd711ad314.ctex"]
+source_file="res://assets/sam.png"
+dest_files=["res://.godot/imported/sam.png-e2225edfb01ee1abc33d4b35110159be.ctex"]
 
 [params]
 

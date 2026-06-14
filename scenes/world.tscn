@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://dyqrcah2m6so8" path="res://scenes/player_movement.gd" id="1_4dvvg"]
 [ext_resource type="Script" uid="uid://670xbgl5g161" path="res://scenes/draw_bg.gd" id="1_rnjyy"]
-[ext_resource type="SpriteFrames" uid="uid://job2o1iarqdx" path="res://mainguyAt Rest.res" id="2_rnjyy"]
+[ext_resource type="SpriteFrames" uid="uid://fse4w8k2uexs" path="res://assets/sam.res" id="3_rnjyy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4vge2"]
 size = Vector2(16, 13)
@@ -13,14 +13,13 @@ size = Vector2(16, 13)
 script = ExtResource("1_rnjyy")
 
 [node name="Player" type="CharacterBody2D" parent="." unique_id=1013089397]
-position = Vector2(0, -200)
+position = Vector2(0, -15)
 script = ExtResource("1_4dvvg")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player" unique_id=887997096]
 texture_filter = 1
-sprite_frames = ExtResource("2_rnjyy")
+sprite_frames = ExtResource("3_rnjyy")
 animation = &"Stationary"
-frame_progress = 0.17610815
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=1540274558]
 position = Vector2(0, 1.5)
